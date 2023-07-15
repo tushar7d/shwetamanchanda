@@ -1,10 +1,9 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      Website coming soon
-    </main>
+    <h1 className="text-3xl font-bold ">
+      Hello world!
+    </h1>
   )
 }
